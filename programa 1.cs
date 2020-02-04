@@ -19,8 +19,7 @@ namespace lab3_semana1
 
             ins.calcularArea(ancho,alto);
             ins.calcularPerimetro(ancho, alto);
-            Console.WriteLine("el Area es: {0}", ins.area);
-            Console.WriteLine("el perimetro es {0}", ins.perimetro);
+            Console.WriteLine("el Area es: {0}", ins.area, " y el perimetro de: {1}", ins.perimetro);
             Console.ReadKey();
         }
     }
