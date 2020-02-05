@@ -10,6 +10,7 @@ namespace lab3_semana1
             String entrada = "";
             sumas ins = new sumas();
 
+            Console.WriteLine("Hola");
             Console.WriteLine("Ingrese el ancho: ");
             entrada = Console.ReadLine();
             ancho = Convert.ToDouble(entrada);
