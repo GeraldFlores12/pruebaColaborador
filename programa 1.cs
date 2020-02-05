@@ -11,6 +11,7 @@ namespace lab3_semana1
             sumas ins = new sumas();
 
             Console.WriteLine("Hola");
+            Console.WriteLine("Hola mundo");
             Console.WriteLine("Ingrese el ancho: ");
             entrada = Console.ReadLine();
             ancho = Convert.ToDouble(entrada);
